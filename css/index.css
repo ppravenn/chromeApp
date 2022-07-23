@@ -1,0 +1,87 @@
+.hidden{
+    display: none;
+}
+*{
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+}
+body{
+    overflow: hidden;
+    color:yellow
+}
+.cf::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+img{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+   
+    z-index: -1;
+}
+#wrap{
+    max-width: 1200px;
+    margin: 150px auto;
+    text-align: center;
+}
+#wrap h2{
+    font-size: 50px;
+}
+#todowrap{
+    float: left;
+    width: 50%;
+}
+#wrap input{
+    border: 0 solid black;
+    background: none;
+    border-bottom: 2px solid yellowgreen;
+    width: 20%;
+    padding-left: 10px;
+    font-size: 20px;
+}
+#wrap #logwrap{
+    padding: 50px;
+}
+#weather{
+    position: absolute;
+    right: 5%;
+    top: 5%;
+    font-size: 25px;
+}
+#login-form>button{
+   margin-top: 20px;
+    border: none;
+    padding: 10px 100px;
+    font-size: 20px;
+    border-radius: 20px;
+    background: blueviolet;
+    cursor: pointer;
+}
+#logout{
+    margin-top: 20px;
+    border: none;
+    padding: 10px 100px;
+    border-radius: 20px;
+    background: red;
+    cursor: pointer;
+}
+#todo-form input{
+    width: 50%;
+}
+#todo-list{
+    width: 50%;
+    text-align: left;
+    margin: 10px auto;
+    padding-left: 0;
+}
+#quote span:first-child{
+    display: inline-block;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
